@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_294056_angular_a_My first AngularJS application in ServiceNow.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"></link>
+<script src="x_294056_angular_a.angular_app_client_lo.jsdbx"></script>
+	
+	<div ng-app="angularapp" ng-controller="AngularAppCtrl as appctrl">
+	<input type= "text" ng-model="myVar" placeholder="Enter some text here"></input>
+		<p></p>
+		<div class="jumbotron">
+			<h1 class="display-3">Hello World!</h1>
+			<hr class="m-y-2"/>
+			<p>{{myVar}}</p>
+		</div>	
+		<button ng-click="clearTxt()" type="button" class="btn btn-primary">Clear Text</button>							 
+	</div>
+</j:jelly>
+]]></html>
+        <name>My first AngularJS application in ServiceNow</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-24 16:12:43</sys_created_on>
+        <sys_id>0ba817a4db923300de2964d748961955</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>My first AngularJS application in ServiceNow</sys_name>
+        <sys_package display_value="Angular App" source="x_294056_angular_a">2988132cdb523300de2964d74896198d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Angular App">2988132cdb523300de2964d74896198d</sys_scope>
+        <sys_update_name>sys_ui_page_0ba817a4db923300de2964d748961955</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-24 18:06:06</sys_updated_on>
+    </sys_ui_page>
+</record_update>
